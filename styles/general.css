@@ -16,7 +16,7 @@ header p,
  
 body{
    /* background-color: saddlebrown;*/
-    background-image: url("/assets/img/bg.jpg");
+    background-image: url("assets/img/bg.jpg");
     background-size:contain;
     background-position: center;
 
