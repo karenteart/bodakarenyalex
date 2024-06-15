@@ -241,8 +241,8 @@ main p{
 }
 
 .texto-banner a{
-    font-size: 1em;
-    font-family: "Textos2";
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    font-family: "Textos";
 }
 
 
