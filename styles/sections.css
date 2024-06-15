@@ -227,7 +227,7 @@ main p{
 
 .hospedaje {
     margin-top: 250px;
-    background-image: url(/assets/img/pavoreal.jpg);
+    background-image: url("../assets/img/pavoreal.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
