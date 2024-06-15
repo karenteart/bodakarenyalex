@@ -1,11 +1,11 @@
 @font-face{
     font-family: "Textos";
-    src: url("/assets/font/LibreBaskerville-Regular.ttf");
+    src: url("../assets/font/LibreBaskerville-Regular.ttf");
 }
 @font-face {
     font-family: "Titulos";
-        src: url("/assets/font/Elegante\ Classica.ttf");}
+        src: url("../assets/font/Elegante\ Classica.ttf");}
        
  @font-face {
             font-family: "Titulos2";
-                src: url("/assets/font/LibreBaskerville-Bold.ttf")}
+                src: url("../assets/font/LibreBaskerville-Bold.ttf")}

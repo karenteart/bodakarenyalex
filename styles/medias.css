@@ -92,11 +92,7 @@
     }
 
     
-    .info  {
-        
-        margin: 10px 40px;
-    }
-
+    
 
 
 
@@ -115,7 +111,7 @@
 
     .wrapper-historia .historiap1 img {
         
-        width: 330px;
+        width: 100%;
 
     }
 
@@ -125,12 +121,12 @@
     }
 
     .historiap1 iframe {
-        width: 335px;
-        height: 350px;
+        width: 100%;
+        
     }
 
     .vermas {
-        margin: 20px 62px;
+        margin: 20px 100px;
         padding: 20px 20px;
         font-size: clamp(1.5rem, 5vw, 2rem);
         background-color: #545E46;
