@@ -1,0 +1,11 @@
+@import url("fonts.css");
+/*Generales*/
+@import url("general.css");
+/* Navegacion Principal */
+@import url("navigation.css");
+/* Cabecera de Pagina */
+@import url("header.css");
+/* Contenido Principal */
+@import url("sections.css");
+/*Medias*/
+@import url("medias.css")

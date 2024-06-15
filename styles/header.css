@@ -1,0 +1,52 @@
+/*header {
+    padding: min (20vw, 320px) 1rem;
+ 
+    
+    text-align:center;
+    
+    background-image:
+        linear-gradient(#050301a4 -20%, #29110004 100%),
+        url("/assets/img/pag2.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 800px;
+    
+}
+
+header h1 {
+    font-size: clamp(3rem, 5vw, 6em);
+    font-family: "Titulos2";
+    font-weight: lighter;
+}
+
+header {
+    padding: 1rem;
+    color: #fff;
+
+}*/
+
+
+
+header{
+    position: relative;
+    padding: 0 2 rem;
+}
+
+
+.navbar{
+    width: 100%;
+   height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+   
+    justify-content: space-between;
+    
+    padding-top: 20px;
+}
+
+
+
+
