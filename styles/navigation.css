@@ -146,7 +146,7 @@ nav a {
     height: 0;
     width: 300px;
     background: #201814bd;
-    backdrop-filter: blur(15px);
+    
     
     overflow: hidden;
     transition: height .2 cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -165,6 +165,12 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.dropdown_menu ul {
+
+
+    padding-left: 0 !important;
+   
 }
 
 .dropdown_menu a {
