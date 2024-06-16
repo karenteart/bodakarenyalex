@@ -1,72 +1,80 @@
 main {
-    
+
     justify-content: center;
-    align-items:center ;
-    
+    align-items: center;
+
     padding: calc(8px + 4vw + 1vh);
-      
-  
-   
+
+
+
     /*font-size: min (calc(2vw + 2rem),5rem);*/
-    
-    text-align:center;
+
+    text-align: center;
     /*text-shadow: 0 0 .25rem #1a1a1a;*/
-   
+
 }
-.info  {
+
+.info {
     align-items: center;
     justify-content: center;
     margin: 20px 300px;
 }
-main img{
+
+main img {
     width: 200px;
 }
-main h1{
-   
+
+main h1 {
+
     font-size: clamp(3rem, 5vw, 5rem);
     font-family: "Textos";
-    font-weight:lighter;
+    font-weight: lighter;
     color: #b95d26;
-    
+
 }
 
-main h2{
+main h2 {
     font-size: clamp(3rem, 5vw, 4.5rem);
     font-family: "Textos";
-    font-weight:lighter;
+    font-weight: lighter;
     color: #545E46;
 }
 
 
-main p{
-    font-size: clamp(1.5em, 5vw, 2.5rem);
+main p {
+    font-size: clamp(1.5em, 5vw, 3rem);
     font-family: "Textos";
-    color: #554343;
+    color: #6d5151;
 }
 
-
+main h3 {
+    font-size: clamp(1rem, 5vw, 1.8rem);
+    font-family: "Textos";
+    color: #6d5151;
+}
 
 /*FECHA*/
-.fecha{
+.fecha {
 
-    
+
     padding: calc(8px + 4vw + 1vh);
-    
-    text-align:center;
+
+    text-align: center;
     /
-   
 }
-.fecha h2{
+
+.fecha h2 {
     font-size: clamp(3rem, 5vw, 4rem);
     font-family: "Textos";
-    font-weight:lighter;
+    font-weight: lighter;
     color: #b95d26;
-    
+
 }
-.fecha h3{
+
+.fecha h3 {
     font-size: clamp(3rem, 5vw, 4rem);
     font-family: "Textos";
-    font-weight:lighter;
+    font-weight: lighter;
     color: #b95d26;
 }
 
@@ -76,152 +84,170 @@ main p{
 
 .wrapper-historia {
     align-items: center;
-    margin:  auto;
+    margin: auto;
     width: 80%;
-  }
-  
-  
+}
 
-  .historiap1 {
+
+
+.historiap1 {
     margin-top: 50px;
     margin-bottom: 40px;
-    
-  
-  }
-  
-  .wrapper-historia .historiap1 img {
+
+
+}
+
+.wrapper-historia .historiap1 img {
     max-width: 650px;
     float: right;
     margin-left: 60px;
-  
-  }
 
-  .wrapper-historia h2 {
-    text-align: center;
-    font-size: clamp(3rem, 5vw, 5em);
-    font-family: "Textos";
-    font-weight:lighter;
-    color: #b95d26 }
-
-    .wrapper-historia h3 {
-        text-align: center;
-        font-size: clamp(1.8rem, 5vw, 3rem);
-        font-family: "Textos";
-        color: #8D2400; 
-        padding: 2rem 0;
-      }
-
-
-      .text-box p {
-
-        text-align: center;
-        font-size: clamp(2em, 5vw, 3em);
-        font-family: "Textos";
-        color: #554343;
-      }
-
-      .historiap1 iframe{
-        margin-top: 80px;
-        width: 800px;
-        height: 300px;
-      }
-
-
-      .vermas{
-        margin: 50px 230px;
-        padding:20px  50px;
-        font-size: clamp(1.5rem, 5vw, 2rem);
-        background-color:  #545E46;
-        color: white;
-        border-style: none;
-        border-radius: 40px;
-        font-family: "Textos";
-    }
-    
-    .vermas a{
-        color: white;
-        text-decoration: none;
-    }
-    
-    .vermas:hover{
-        background-color:  #1e2e16;
-    }
-    
-    .vermas2{
-        margin: 50px 230px;
-        padding:20px  50px;
-        font-size: clamp(1.5rem, 5vw, 2rem);
-        background-color:  #545E46;
-        color: white;
-        border-style: none;
-        border-radius: 40px;
-        font-family: "Textos";
-    }
-    
-    .vermas2 a{
-        color: white;
-        text-decoration: none;
-    }
-    
-    .vermas2:hover{
-        background-color:  #1e2e16;
-    }
-.inspo{
-    padding-top: 200px;
-    padding-bottom: 20px;
-    text-align:center;
-    
 }
 
-.inspo h1{
+.wrapper-historia h2 {
+    text-align: center;
     font-size: clamp(3rem, 5vw, 5rem);
     font-family: "Textos";
-    font-weight:lighter;
+    font-weight: lighter;
+    color: #b95d26
+}
+
+.wrapper-historia h3 {
+    text-align: center;
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    font-family: "Textos";
+    color: #8D2400;
+    padding: 2rem 0;
+}
+
+
+.text-box p {
+
+    text-align: center;
+    font-size: clamp(1.5em, 5vw, 3rem);
+    font-family: "Textos";
+    color: #6d5151;
+}
+
+.historiap1 iframe {
+    margin-top: 80px;
+    width: 800px;
+    height: 300px;
+}
+
+
+.vermas {
+    margin: 50px 16px;
+    padding: 20px 50px;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    background-color: #545E46;
+    color: white;
+    border-style: none;
+    border-radius: 40px;
+    font-family: "Textos";
+}
+
+.vermas a {
+    color: white;
+    text-decoration: none;
+}
+
+.vermas:hover {
+    background-color: #1e2e16;
+}
+
+.vermas2 {
+    margin: 50px 230px;
+    padding: 20px 50px;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    background-color: #545E46;
+    color: white;
+    border-style: none;
+    border-radius: 40px;
+    font-family: "Textos";
+}
+
+.vermas2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.vermas2:hover {
+    background-color: #1e2e16;
+}
+
+.inspo {
+    padding-top: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+.inspo .pleca{
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+}
+
+.inspo h1 {
+    font-size: clamp(3rem, 5vw, 5rem);
+    font-family: "Textos";
+    font-weight: lighter;
     color: #b95d26;
 }
 
 
-.inspo h2{
-    font-size: 3rem;
+.inspo h2 {
+    font-size: clamp(2rem, 5vw, 3rem);
     font-family: "Textos";
-    font-weight:lighter;
+    font-weight: lighter;
     color: #b95d26;
     padding-bottom: 40px;
 }
 
 .inspo p {
-    padding:1rem 9rem;
-    font-size: 3rem;
+    padding: 1rem 9rem;
+    font-size: clamp(1.5rem, 5vw, 3rem);
     font-family: "Textos";
     color: #6d5151;
 }
 
 .container-inspo {
-            display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
 .row-inspo {
     display: flex;
     flex-wrap: wrap;
     gap: 200px;
 }
+
 .inspoimg {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.iconinspo{
+
+.iconinspo {
     width: 200px;
 }
+
 .imagen-circular {
-    width: 400px; /* Ajusta el tamaño según tus necesidades */
-    height: 400px; /* Asegúrate de que la altura y el ancho sean iguales para que sea un círculo perfecto */
-    border-radius: 50%; /* Este es el truco para hacerla circular */
-    object-fit: cover; /* Esto asegurará que la imagen se ajuste bien dentro del contenedor circular */
-    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+    width: 400px;
+    /* Ajusta el tamaño según tus necesidades */
+    height: 400px;
+    /* Asegúrate de que la altura y el ancho sean iguales para que sea un círculo perfecto */
+    border-radius: 50%;
+    /* Este es el truco para hacerla circular */
+    object-fit: cover;
+    /* Esto asegurará que la imagen se ajuste bien dentro del contenedor circular */
+    margin-bottom: 10px;
+    /* Espacio entre la imagen y el texto */
 }
 
 
@@ -234,32 +260,42 @@ main p{
     background-position: center;
     height: 30em;
 }
+
 .texto-banner {
     color: #fff;
     text-align: center;
-    padding-top: 10em;
+    padding-top: 7rem;
 }
 
-.texto-banner a{
+.texto-banner h2 {
+    vertical-align: middle;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: white;
+    font-family: "Textos";
+    font-weight: 400;
+    margin:20px 50px;
+}
+
+.texto-banner a {
     font-size: clamp(1.5rem, 5vw, 2rem);
     font-family: "Textos";
 }
 
 
-.fotos{
+.fotos {
 
     width: 100%;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     display: flex;
     /*font-size: min (calc(2vw + 2rem),5rem);*/
-    
-    text-align:center;
-margin-bottom: 8rem;}
 
-.carousel{
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.carousel {
     width: 40%;
     height: 40%;
-    margin:2rem;
+    margin: 2rem;
 }
-    
