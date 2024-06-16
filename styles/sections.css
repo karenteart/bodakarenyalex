@@ -26,16 +26,16 @@ main img {
 
 main h1 {
 
-    font-size: clamp(3rem, 5vw, 5rem);
-    font-family: "Textos";
+    font-size: clamp(2.4rem, 5vw, 5rem);
+    font-family: "Titulos2";
     font-weight: lighter;
     color: #b95d26;
 
 }
 
 main h2 {
-    font-size: clamp(3rem, 5vw, 4.5rem);
-    font-family: "Textos";
+    font-size: clamp(1.9rem, 5vw, 4.5rem);
+    font-family: "Titulos2";
     font-weight: lighter;
     color: #545E46;
 }
@@ -107,7 +107,7 @@ main h3 {
 .wrapper-historia h2 {
     text-align: center;
     font-size: clamp(3rem, 5vw, 5rem);
-    font-family: "Textos";
+    font-family: "Titulos2";
     font-weight: lighter;
     color: #b95d26
 }
@@ -183,7 +183,7 @@ main h3 {
 
 }
 .inspo .pleca{
-    width: 50%;
+    width: 25%;
     padding-top: 20px;
     padding-bottom: 20px;
     
@@ -192,7 +192,7 @@ main h3 {
 
 .inspo h1 {
     font-size: clamp(3rem, 5vw, 5rem);
-    font-family: "Textos";
+    font-family: "Titulos2";
     font-weight: lighter;
     color: #b95d26;
 }
@@ -200,7 +200,7 @@ main h3 {
 
 .inspo h2 {
     font-size: clamp(2rem, 5vw, 3rem);
-    font-family: "Textos";
+    font-family: "Titulos2";
     font-weight: lighter;
     color: #b95d26;
     padding-bottom: 40px;

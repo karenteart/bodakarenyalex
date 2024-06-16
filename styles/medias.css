@@ -92,11 +92,7 @@
         padding: 10px 30px;
     }
 
-    .inspo{
-    padding: 60px;
-        text-align: center;
-}
-
+    
 
 
 }
@@ -150,7 +146,12 @@
         font-family: "Textos";
     }
 
-  
+    .inspo {
+        padding-top: 100px;
+        padding-bottom: 20px;
+        text-align: center;
+    
+    }
 
     .inspo h1 {
         font-size: clamp(3rem, 5vw, 5rem);
